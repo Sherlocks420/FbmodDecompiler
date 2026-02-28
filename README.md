@@ -22,3 +22,5 @@ Press "reverse" when done
 This project incorporates key open-source libraries, with proper credit as follows. The Frosty suite assemblies (FrostyControls.dll, FrostyCore.dll, FrostyHash.dll, FrostyModSupport.dll, FrostySdk.dll, and related components) build on the FrostyToolsuite, the leading modding platform for Frostbite engine games—originally developed by CadeEvs under CC BY-NC-ND 4.0, and continued/maintained by the FrostyToolsuite organization under GPL-3.0, thanks to community contributions. Newtonsoft.Json (Json.NET) handles JSON processing under the MIT license. Compression uses ZstdSharp under MIT. StarWarsSDK.dll stems from community Frostbite SDK efforts, particularly for Star Wars titles in the modding ecosystem. All are used in compliance with their licenses, and this work depends heavily on the Frostbite modding community's ongoing advancements.
 
 #### LICENSE:
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.  
+See the full license text [here](https://github.com/Sherlocks420/FbmpDecompiler/blob/main/LICENSE).
