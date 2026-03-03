@@ -754,6 +754,7 @@ if (!InitializeFrosty(opt.GamePath, opt.Verbose, opt.FastInit, out var assetMana
 	            if (!fastInit)
 	            {
 	                Console.WriteLine("Initializing AssetManager...");
+
                     Console.WriteLine("This Step may take up to 10 minutes depending on the Mod");
 	                RunWithWatchdog(() => am.Initialize(), "AssetManager.Generating Cache");
 	
@@ -3014,7 +3015,7 @@ private static void DumpAssetManagerResApis(AssetManager am)
                     continue;
 
                 string safeName = MakeSafePath(ebx.Name);
-                string outPath = Path.Combine(folder, safeName + ".ebx");
+                string outPath = Path.Combine(folder, safeName + ".bin");
                 Directory.CreateDirectory(Path.GetDirectoryName(outPath));
                 File.WriteAllBytes(outPath, ebx.Data);
                 i++;
